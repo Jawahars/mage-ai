@@ -75,7 +75,7 @@ REDIS_URL = os.getenv('REDIS_URL')
 SERVER_VERBOSITY = os.getenv('SERVER_VERBOSITY', 'info') or 'info'
 SERVER_LOGGING_FORMAT = os.getenv('SERVER_LOGGING_FORMAT')
 
-INITIAL_METADATA = os.getenv('INITIAL_METADATA', '{{}}')
+INITIAL_METADATA = os.getenv('INITIAL_METADATA', '{}')
 
 DISABLE_AUTO_BROWSER_OPEN = get_bool_value(os.getenv('DISABLE_AUTO_BROWSER_OPEN', 'False'))
 
